@@ -1,14 +1,14 @@
 {
-  "name": "zero-to-prod/:slug",
-  "description": ":description",
+  "name": "zero-to-prod/callspy",
+  "description": "Records function calls and their argument values.",
   "license": "MIT",
   "type": "library",
   "keywords": [
     "zero-to-prod",
-    ":slug"
+    "callspy"
   ],
   "readme": "./README.md",
-  "time": ":time",
+  "time": "2025-03-04",
   "authors": [
     {
       "name": "David Smith",
@@ -17,13 +17,13 @@
       "role": "maintainer"
     }
   ],
-  "homepage": "https://github.com/zero-to-prod/:slug",
+  "homepage": "https://github.com/zero-to-prod/callspy",
   "support": {
     "email": "dave0016@gmail.com",
-    "issues": "https://github.com/zero-to-prod/:slug/issues",
-    "source": "https://github.com/zero-to-prod/:slug",
-    "docs": "https://zero-to-prod.github.io/:slug/",
-    "security": "https://github.com/zero-to-prod/:slug/blob/main/SECURITY.md"
+    "issues": "https://github.com/zero-to-prod/callspy/issues",
+    "source": "https://github.com/zero-to-prod/callspy",
+    "docs": "https://zero-to-prod.github.io/callspy/",
+    "security": "https://github.com/zero-to-prod/callspy/blob/main/SECURITY.md"
   },
   "funding": [
     {
@@ -39,15 +39,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Zerotoprod\\:namespace\\": "src/"
+      "Zerotoprod\\Callspy\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
       "Tests\\": "tests/"
     }
-  },
-  "bin": [
-    "bin/:slug"
-  ]
+  }
 }
